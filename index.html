@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        Signup Form
+    </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <script src='main.js'></script>
+
+    <style>
+.outer-box{
+border: 2px solid red;
+width: 300px;
+padding: 15px;
+background-color: white;
+border-radius: 20px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px
+
+
+}
+.center{
+    text-align: center;
+}
+input{
+    margin: 10px;
+    padding: 7px 20px;
+    border-radius: 5px ;
+    border: none;
+    border: 1px solid gray;
+}
+.back{
+    background-color: rgb(18, 125, 248);
+    border-radius: 7px;
+    border-bottom: none;
+    color: white;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  background: linear-gradient(to top,blue, aqua );
+    font-family: 'Baloo 2', cursive;
+}
+h6{
+    text-align: center;
+    margin-top: 1px;
+}
+h5{
+    text-align: center;
+}
+button{
+    text-align: center;
+    width: 100%;
+    padding: 6px;
+}
+.BU1{
+    margin-bottom: 15px;
+    color: rgb(66, 66, 216);
+}
+.BU2{
+    color: rgb(207, 49, 49);
+
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+
+        <h2 class="center"> Signup</h2>
+        <form action="backend.js" method="post">
+            <input type="Email" value="" placeholder="Enter Email"> 
+            <input type="Password" placeholder="Create Password">
+            <input type="Password" placeholder="Confirm Password">
+            <input type="Submit" value="Signup" class="back">
+        </form>
+        <h6> Already have an account? <a href="/login.html">Login</a></h6>
+        <h5> Or</h5>
+        <button class="BU1"> <i class="bi bi-facebook"> </i>   Login with Facebook  </button>
+        <button class="BU2"> <i class="bi bi-google"></i>   Login with Google  </button>
+
+    </div>
+
+    
+</body>
+</html>
