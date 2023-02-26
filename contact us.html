@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .outerbox{
+            width: 100%;
+            height:75px ;
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content:space-between ;
+        
+        }
+        
+        .leftlogo{
+            border-radius: 10px;
+        }
+    
+        .navlink{
+            width: 500px;
+            height: 75px;
+            border-radius: 10px;
+            display:flex;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            justify-content:space-evenly ;
+            list-style-type:none ;
+            width: 100% ;
+            
+        
+    
+        }
+        .leftlogo img{
+            width: 97px;
+            height: 75px;
+            border-radius: 90px;
+        }
+        .navlink a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .outer-box{
+border: 2px solid rgb(0, 0, 0);
+width: 300px;
+padding: 15px;
+background-color: white;
+border-radius: 20px ;
+margin-top: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px
+    margin-top
+
+
+}
+.center{
+    text-align: center;
+}
+input{
+    margin: 10px;
+    padding: 7px 20px;
+    border-radius: 5px ;
+    border: none;
+    border: 1px solid gray;
+}
+.back{
+    background-color: rgb(18, 125, 248);
+    border-radius: 7px;
+    border-bottom: none;
+    color: white;
+}
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    background: linear-gradient(to top,rgb(0, 0, 0), rgb(51, 51, 51) );
+    font-family: 'Baloo 2', cursive;
+    flex-direction: column;
+   
+}
+h6{
+    text-align: center;
+    margin-top: 1px;
+}
+h5{
+    text-align: center;
+}
+button{
+    text-align: center;
+    width: 100%;
+    padding: 6px;
+}
+.BU1{
+    margin-bottom: 15px;
+    color: rgb(66, 66, 216);
+}
+.BU2{
+    color: rgb(207, 49, 49);
+
+}
+
+textarea{
+    width:287px;
+    height: 122px;
+    margin-left: 6px;
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    margin-top: 161px;
+    margin-left: 30px;
+}
+    </style>
+</head>
+    <body>
+        <div class="outerbox">
+            <div class="leftlogo">
+             <img src="https://images.chesscomfiles.com/uploads/v1/article/24256.f446db09.5000x5000o.7b1ed5c2a93f.jpeg" alt="">
+            </div> 
+            <div class="navlink">
+            <ul> 
+             <a href="./Navbar.html"><li>Home</li></a>
+             <a href="./about us.html"><li>About</li></a>
+             <a href="./contact us.html"><li>Contact Us</li></a>
+            </ul>
+            </div>
+         </div>
+
+         <div class="box">
+
+         <div class="outer-box">
+
+            <h2 class="center">Contact Us</h2>
+            <form action="backend.js" method="post">
+                <input type="Name" value="" placeholder="Name"> 
+                <input type="Email" placeholder="Email">
+                <textarea placeholder="Type your meassage here"></textarea>
+                <input type="Submit" value="Submit" class="back">
+            </form>
+           
+        </div>
+        <div class="wrap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13227.988112520381!2d-117.5743130263795!3d34.018287233669746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dccab75dcbb789%3A0xe6e1d39df6160698!2sColony%20High%20School!5e0!3m2!1sen!2sus!4v1677026774691!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </div>
+    </body>
+    </html>
